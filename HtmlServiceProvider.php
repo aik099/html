@@ -61,7 +61,7 @@ class HtmlServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('html', 'form');
+		return array('html', 'form', 'Illuminate\Html\HtmlBuilder', 'Illuminate\Html\FormBuilder');
 	}
 
 }
